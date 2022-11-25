@@ -1,0 +1,91 @@
+#body{
+  background-color: #9a9b9b;
+}
+
+#Direita{
+  width: 50%;
+  float: left;
+  text-align: center;
+  margin: auto 5%;
+}
+
+#divProcurar{
+  width: 60%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 30%;
+}
+
+#divClick{
+  height:32px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  float: left;
+  margin: 20px 50px;
+}
+
+#Link{
+  border:none;
+  height: 40px;
+  border-radius: 7px 7px 7px 7px;
+  width: 40%;
+  background: hsl(170, 69%, 59%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px hsl(170, 69%, 59%);
+    border-radius:10px;
+    height:32px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: 20px auto;
+  }
+  
+  #SelecaoRacas{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:60%;
+  }
+  
+  #btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:40%;
+    font-weight:bold;
+    background:hsl(170, 69%, 59%);
+  }
+  
+  #divInformacoes{
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #Esquerda{
+    float: right;
+    width: 40%;
+    text-align: center;
+  }
+
+  #Imagem{
+    margin-top: 100px;
+    margin-left: -50%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    width: 375px;
+    height: 375px;
+  }
